@@ -1,2 +1,25 @@
+.idea/
+.vscode/
+.teamcity/.*
+.bsp/
+/?
+*.iml
+.DS_Store
+global.sbt
+
+/venv
+**/target/
+/project/project
+/docker
+/native
+
+*.orig
 *.class
 *.log
+
+**/__pycache__
+*.pyc
+*.sqlite
+*.sqlite-joirnal
+# local path to store secrets for developer
+/py-preview/infra/secrets/
